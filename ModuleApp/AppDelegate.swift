@@ -5,7 +5,7 @@
 //  Created by Ievgen Samoilyk on 17.06.2021.
 //
 
-import ModulCore
+import ModuleCoreResources
 import UIKit
 
 @main

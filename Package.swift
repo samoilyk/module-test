@@ -3,14 +3,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "ModulCore",
+    name: "ModuleCore",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "ModulCore",
-            targets: ["ModulCore"]
+            name: "ModuleCoreResources",
+            targets: ["ModuleCoreResources"]
+        ),
+        .library(
+            name: "ModuleCoreFramework",
+            targets: ["ModuleCoreFramework"]
         )
     ],
     dependencies: [
@@ -18,18 +22,23 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "ModulCore",
+            name: "ModuleCoreResources",
             dependencies: [
                 "FuntastyKit"
             ],
-            path: "ModulCore/Sources"
+            path: "ModuleCore/Sources/ModuleCoreResources"
+        ),
+        .target(
+            name: "ModuleCoreFramework",
+            dependencies: [],
+            path: "ModuleCore/Sources/ModuleCoreFramework"
         ),
         .testTarget(
-            name: "ModulCoreTests",
+            name: "ModuleCoreTests",
             dependencies: [
-                "ModulCore"
+                "ModuleCoreResources"
             ],
-            path: "ModulCore/ModulCoreTests"
+            path: "ModuleCore/Tests/ModuleCoreTests"
         )
     ]
 )
