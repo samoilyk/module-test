@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.3
 
 import PackageDescription
 
@@ -10,18 +10,26 @@ let package = Package(
     products: [
         .library(
             name: "ModulCore",
-            targets: ["ModulCore"])
+            targets: ["ModulCore"]
+        )
     ],
     dependencies: [
-            .package(name: "FuntastyKit", url: "https://github.com/thefuntasty/FuntastyKit", from: "2.1.0")
+        .package(url: "https://github.com/thefuntasty/FuntastyKit", from: "2.1.0")
     ],
     targets: [
         .target(
             name: "ModulCore",
             dependencies: [
-                .product(name: "FuntastyKit", package: "FuntastyKit")
+                "FuntastyKit"
             ],
-            path: "ModulCore"
+            path: "ModulCore/Sources"
+        ),
+        .testTarget(
+            name: "ModulCoreTests",
+            dependencies: [
+                "ModulCore"
+            ],
+            path: "ModulCore/ModulCoreTests"
         )
     ]
 )

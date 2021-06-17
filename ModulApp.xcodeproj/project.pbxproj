@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		850B0BC5267B413C0039C203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B0BC4267B413C0039C203 /* AppDelegate.swift */; };
 		850B0BD1267B413E0039C203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850B0BCF267B413E0039C203 /* LaunchScreen.storyboard */; };
-		850B0BE4267B46040039C203 /* ModulCore in Frameworks */ = {isa = PBXBuildFile; productRef = 850B0BE3267B46040039C203 /* ModulCore */; };
+		850CEDE1267B70C3008C47F1 /* ModulCore in Frameworks */ = {isa = PBXBuildFile; productRef = 850CEDE0267B70C3008C47F1 /* ModulCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +18,7 @@
 		850B0BD0267B413E0039C203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		850B0BD2267B413E0039C203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		850B0BDA267B42F70039C203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		850B0BE0267B45A50039C203 /* ModulCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ModulCore; sourceTree = "<group>"; };
+		8511B84C267B743D00781F9D /* ModulCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ModulCore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,7 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				850B0BE4267B46040039C203 /* ModulCore in Frameworks */,
+				850CEDE1267B70C3008C47F1 /* ModulCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,7 +36,7 @@
 		850B0BB8267B413C0039C203 = {
 			isa = PBXGroup;
 			children = (
-				850B0BE0267B45A50039C203 /* ModulCore */,
+				8511B84C267B743D00781F9D /* ModulCore */,
 				850B0BC3267B413C0039C203 /* ModulApp */,
 				850B0BC2267B413C0039C203 /* Products */,
 				850B0BDB267B442C0039C203 /* Frameworks */,
@@ -86,7 +86,7 @@
 			);
 			name = ModulApp;
 			packageProductDependencies = (
-				850B0BE3267B46040039C203 /* ModulCore */,
+				850CEDE0267B70C3008C47F1 /* ModulCore */,
 			);
 			productName = ModulApp;
 			productReference = 850B0BC1267B413C0039C203 /* ModulApp.app */;
@@ -289,7 +289,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samoilyk.module-test.ModulApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.samoilyk.module-test.ModulApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -336,7 +336,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		850B0BE3267B46040039C203 /* ModulCore */ = {
+		850CEDE0267B70C3008C47F1 /* ModulCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ModulCore;
 		};

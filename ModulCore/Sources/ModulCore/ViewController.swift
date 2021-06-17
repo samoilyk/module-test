@@ -9,9 +9,13 @@ import UIKit
 
 public class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet var label: UILabel!
+
+    public override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        label.text = "ViewDidLoad"
     }
+
+    public static let storyboardVC = UIStoryboard(name: "Main", bundle: Bundle.module).instantiateViewController(identifier: "ViewControllerID")
 }
 
