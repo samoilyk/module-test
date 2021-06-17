@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FuntastyKit",
+        "repositoryURL": "https://github.com/thefuntasty/FuntastyKit",
+        "state": {
+          "branch": null,
+          "revision": "7e75aa0d522186a917d5189a3989ba1c4263b9c4",
+          "version": "2.2.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
