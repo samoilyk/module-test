@@ -18,7 +18,7 @@
 		850B0BD0267B413E0039C203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		850B0BD2267B413E0039C203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		850B0BDA267B42F70039C203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		854C2410267C96B000BB30BE /* module-core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "module-core"; sourceTree = "<group>"; };
+		854C2441267CAB9C00BB30BE /* module-core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "module-core"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 		850B0BB8267B413C0039C203 = {
 			isa = PBXGroup;
 			children = (
-				854C2410267C96B000BB30BE /* module-core */,
+				854C2441267CAB9C00BB30BE /* module-core */,
 				850B0BC3267B413C0039C203 /* ModuleApp */,
 				850B0BC2267B413C0039C203 /* Products */,
 				850B0BDB267B442C0039C203 /* Frameworks */,
