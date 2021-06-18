@@ -34,11 +34,18 @@ let package = Package(
             path: "ModuleCore/Sources/ModuleCoreFramework"
         ),
         .testTarget(
-            name: "ModuleCoreTests",
+            name: "ModuleCoreResourcesTests",
             dependencies: [
                 "ModuleCoreResources"
             ],
-            path: "ModuleCore/Tests/ModuleCoreTests"
+            path: "ModuleCore/Tests/ModuleCoreResourcesTests"
+        ),
+        .testTarget(
+            name: "ModuleCoreFrameworkTests",
+            dependencies: [
+                "ModuleCoreFramework"
+            ],
+            path: "ModuleCore/Tests/ModuleCoreFrameworktests"
         )
     ]
 )
