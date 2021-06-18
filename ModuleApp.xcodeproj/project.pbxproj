@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		850B0BC5267B413C0039C203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850B0BC4267B413C0039C203 /* AppDelegate.swift */; };
 		850B0BD1267B413E0039C203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850B0BCF267B413E0039C203 /* LaunchScreen.storyboard */; };
-		854C2412267CA34200BB30BE /* ModuleCoreResources in Frameworks */ = {isa = PBXBuildFile; productRef = 854C2411267CA34200BB30BE /* ModuleCoreResources */; };
+		854C2436267CA8C400BB30BE /* ModuleCoreFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 854C2435267CA8C400BB30BE /* ModuleCoreFramework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				854C2412267CA34200BB30BE /* ModuleCoreResources in Frameworks */,
+				854C2436267CA8C400BB30BE /* ModuleCoreFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = ModuleApp;
 			packageProductDependencies = (
-				854C2411267CA34200BB30BE /* ModuleCoreResources */,
+				854C2435267CA8C400BB30BE /* ModuleCoreFramework */,
 			);
 			productName = ModulApp;
 			productReference = 850B0BC1267B413C0039C203 /* ModuleApp.app */;
@@ -336,9 +336,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		854C2411267CA34200BB30BE /* ModuleCoreResources */ = {
+		854C2435267CA8C400BB30BE /* ModuleCoreFramework */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = ModuleCoreResources;
+			productName = ModuleCoreFramework;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

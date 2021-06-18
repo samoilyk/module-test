@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "ModuleCore",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v14)
     ],
     products: [
         .library(
@@ -28,10 +28,9 @@ let package = Package(
             ],
             path: "ModuleCore/Sources/ModuleCoreResources"
         ),
-        .target(
+        .binaryTarget(
             name: "ModuleCoreFramework",
-            dependencies: [],
-            path: "ModuleCore/Sources/ModuleCoreFramework"
+            path: "ModuleCore/Sources/ModuleCoreFramework/ModuleCoreFramework.xcframework"
         ),
         .testTarget(
             name: "ModuleCoreResourcesTests",
